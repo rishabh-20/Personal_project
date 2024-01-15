@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+        <div class="search">
+            
+                <input id="inp" type="text" placeholder="Search For Weather by city ,zip code,or coordinates">
+                <button onclick="fetchDetails()">Search</button>  
+           
+            
+        </div>  
+        <div class="content">
+            <h1 id="city"> <img src="1904662-location-map-map-location-map-point-pin-place-placeholder_122512.png" alt="" height="26px">New York,NY</h1>  <br>
+            <p id="date">Tuesday,January 2 2023</p> <br>
+    
+
+            <h1 class="one" id="temp">75℃ <span><img id="change" src="" alt=""></span></h1>  <br>
+            
+
+            <!-- <p class="one">Sunny</p>
+            <p  class="one"> Feels Like 77 F</p>
+            <p  class="one">Humidity 89%</p>
+            <p  class="one">Wind Speed 10mph E</p> -->
+
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
